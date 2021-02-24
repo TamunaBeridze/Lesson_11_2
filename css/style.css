@@ -173,6 +173,36 @@
     width: 100%;
 }
 
+/* footer styles */
+.footer-container{
+    max-width: 100%;
+    width: 100%;
+    height: 395px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
 
+.footer-wraper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1070px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer-list-wraper{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-par{
+    width: 260px;
+    text-align: left;
+    padding-top: 10px;
+    color: blanchedalmond;
+}
 
 
