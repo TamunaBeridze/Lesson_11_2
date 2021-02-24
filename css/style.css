@@ -1,0 +1,178 @@
+/* baseline styles */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header styles */
+.header-wraper{
+    background-image: url(../img/cover.png);
+    height: 324px;
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 80%;
+}
+.container-header {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;     
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-flex-1{
+    display: flex;
+}
+
+.nav-li{
+    margin-right: 30px;
+}
+
+.header-contact{
+    margin-left: 180px;
+    margin-top: 130px;
+}
+
+.nav-li-1{
+    margin-right: 30px;
+    padding-top: 30px;
+
+}
+
+/* contact section */
+
+.contact-container{
+    max-width: 100%;
+    width: 100%;
+}
+
+.map-container{
+    max-width: 1088px;
+    width: 100%;
+    height: 288px;
+    margin-top: 100px;
+}
+
+.map-position{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.h4-position{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.h1-position{
+    margin-top: 20px;
+    margin-left: 170px;
+    width: 378px;
+    font-size: 42px;
+}
+
+.contact-box-wraper-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box-wraper-2{
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-box-wraper{
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-box{
+    width: 720px;
+    height: 288px;
+    background-color: #F8F8F8;
+    border-color: #e8e8e8;
+    border: 2px;
+}
+
+.margin-left{
+    margin-left: 16px;
+}
+
+.input-style{
+    width: 352px;
+    height: 60px;
+    background-color: #F8F8F8;
+    border-color: #e8e8e8;
+    border: 2px;
+}
+
+.contact-li{
+    padding-bottom: 16px;
+}
+
+.button{
+    width: 352px;
+    height: 60px;
+    background-color: #5863f8;
+    color: white;
+    border: none;
+}
+
+
+/* small boxes for contacts */
+.small-box{
+    width: 362px;
+}
+.small-box h3, p{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.icon-box{
+    background-color: #5863f8;
+    width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+/* photo section styles */
+
+.photo-box-wraper{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.photo-box{
+    width: 352px;
+    height: 352px;
+}
+
+.photo-box img{
+    width: 100%;
+}
+
+
+
+
